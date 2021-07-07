@@ -1,7 +1,7 @@
 {
   "typography": {
     "largescreen": {
-      "subheading": {
+      "displayx-large": {
         "value": {
           "font": {
             "type": "font",
@@ -21,7 +21,7 @@
             "value": {
               "measure": {
                 "type": "size",
-                "value": 16
+                "value": 48
               },
               "unit": {
                 "type": "string",
@@ -62,7 +62,7 @@
             "value": {
               "measure": {
                 "type": "size",
-                "value": 24
+                "value": 64
               },
               "unit": {
                 "type": "string",
@@ -72,7 +72,7 @@
           }
         },
         "type": "typography",
-        "comment": "e.g. Card subheadings, tags"
+        "comment": "e.g. Headline 0"
       },
       "displaylarge": {
         "value": {
@@ -220,79 +220,6 @@
         "type": "typography",
         "comment": "e.g. Headline 2"
       },
-      "displayx-large": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "Source Sans Pro"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Regular"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 48
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Original",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 64
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography",
-        "comment": "e.g. Headline 0"
-      },
       "displaysmall": {
         "value": {
           "font": {
@@ -438,6 +365,79 @@
         },
         "type": "typography",
         "comment": "e.g. Card headings"
+      },
+      "subheading": {
+        "value": {
+          "font": {
+            "type": "font",
+            "value": {
+              "family": {
+                "type": "string",
+                "value": "Source Sans Pro"
+              },
+              "subfamily": {
+                "type": "string",
+                "value": "Regular"
+              }
+            }
+          },
+          "fontSize": {
+            "type": "measure",
+            "value": {
+              "measure": {
+                "type": "size",
+                "value": 16
+              },
+              "unit": {
+                "type": "string",
+                "value": "pixels"
+              }
+            }
+          },
+          "textDecoration": "None",
+          "textCase": "Original",
+          "letterSpacing": {
+            "type": "measure",
+            "value": {
+              "measure": {
+                "type": "size",
+                "value": 0
+              },
+              "unit": {
+                "type": "string",
+                "value": "percent"
+              }
+            }
+          },
+          "paragraphIndent": {
+            "type": "measure",
+            "value": {
+              "measure": {
+                "type": "size",
+                "value": 0
+              },
+              "unit": {
+                "type": "string",
+                "value": "pixels"
+              }
+            }
+          },
+          "lineHeight": {
+            "type": "measure",
+            "value": {
+              "measure": {
+                "type": "size",
+                "value": 24
+              },
+              "unit": {
+                "type": "string",
+                "value": "pixels"
+              }
+            }
+          }
+        },
+        "type": "typography",
+        "comment": "e.g. Card subheadings, tags"
       }
     },
     "smallscreen": {
