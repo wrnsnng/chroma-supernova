@@ -1,141 +1,75 @@
 
 :root {
-    /* Black */
-    --colorFoundationNeutralsBlack: #0b0c0e;    
-    /* Black Subdued */
-    --colorFoundationNeutralsBlacksubdued: #858586;    
-    /* White */
-    --colorFoundationNeutralsWhite: #ffffff;    
-    /* Foundation */
-    --colorFoundationBrandprimaryDefault: #383e44;    
-    /* Light Tint - 40% of Foundation */
-    --colorFoundationBrandprimaryLight: #888b8f;    
-    /* Lighter Tint - 90% of Foundation */
-    --colorFoundationBrandprimaryLighter: #ebecec;    
-    /* Dark Shade - 20% black */
-    --colorFoundationBrandprimaryDark: #2d3236;    
-    /* Dark Shade - 40% black */
-    --colorFoundationBrandprimaryDarker: #222529;    
-    /* Foundation */
-    --colorFoundationBrandsecondaryDefault: #94a5b3;    
-    --colorFoundationBrandsecondaryLight: #bfc9d1;    
-    --colorFoundationBrandsecondaryLighter: #f4f6f7;    
-    --colorFoundationBrandsecondaryDark: #76848f;    
-    --colorFoundationBrandsecondaryDarker: #59636b;    
-    /* Foundation */
-    --colorFoundationBrandtertiaryDefault: #e6e6e6;    
-    --colorFoundationBrandtertiaryLight: #f0f0f0;    
-    --colorFoundationBrandtertiaryLighter: #fcfcfc;    
-    --colorFoundationBrandtertiaryDark: #b8b8b8;    
-    --colorFoundationBrandtertiaryDarker: #8a8a8a;    
-    /* Foundation */
-    --colorFoundationBrandhighlightDefault: #ea526f;    
-    --colorFoundationBrandhighlightLight: #f297a9;    
-    --colorFoundationBrandhighlightLighter: #f7bac5;    
-    --colorFoundationBrandhighlightDark: #bb4259;    
-    --colorFoundationBrandhighlightDarker: #8c3143;    
-    --colorFoundationErrorDefault: #da0000;    
-    --colorFoundationErrorLight: #fdf2f2;    
-    --colorFoundationWarningDefault: #e96a20;    
-    --colorFoundationWarningLight: #fef8f4;    
-    --colorFoundationSuccessDefault: #47810e;    
-    --colorFoundationSuccessLight: #f6f9f3;    
-    --colorFoundationInfoDefault: #2d799f;    
-    --colorFoundationInfoLight: #f4f8fa;    
-    --colorFoundationGreyLighter: #f9fafc;    
-    --colorFoundationGreyLight: #f6f7fa;    
-    /* Foundation */
-    --colorFoundationGreyDefault: #f0f2f7;    
-    --colorFoundationGreyDark: #c0c2c6;    
-    --colorFoundationGreyDarker: #909194;    
-    --colorTextDefault: #0b0c0e;    
-    --colorTextSubdued: #858586;    
-    --colorTextDisabled: #f4f6f7;    
-    --colorTextWhite: #ffffff;    
-    --colorTextBrandprimary: #383e44;    
-    --colorTextBrandprimarysubdued: #888b8f;    
-    --colorTextBrandsecondary: #94a5b3;    
-    --colorTextBrandsecondarysubdued: #bfc9d1;    
-    --colorTextBrandtertiary: #e6e6e6;    
-    --colorTextBrandtertiarysubdued: #f0f0f0;    
-    --colorTextBrandhighlight: #ea526f;    
-    --colorTextBrandhighlightsubdued: #f297a9;    
-    --colorBorderDefault: #c0c2c6;    
-    --colorBorderSubdued: #f0f2f7;    
-    --colorBorderFocus: #2d3236;    
-    --colorBorderBrandprimary: #383e44;    
-    --colorBorderBrandprimarysubdued: #888b8f;    
-    --colorBorderError: #da0000;    
-    --colorBorderErrorsubdued: #fdf2f2;    
-    --colorBorderSuccess: #47810e;    
-    --colorBorderSuccesssubdued: #f6f9f3;    
-    --colorBorderWarning: #e96a20;    
-    --colorBorderWarningsubdued: #fef8f4;    
-    --colorBorderInfo: #2d799f;    
-    --colorBorderInfosubdued: #f4f8fa;    
-    --colorActionprimaryDefault: #383e44;    
-    --colorActionprimarySubdued: #888b8f;    
-    --colorActionprimaryHover: #2d3236;    
-    --colorActionprimaryFocus: #222529;    
-    --colorActionprimaryActive: #ffffff;    
-    --colorActionprimaryDisabled: #ebecec;    
-    --colorActionprimaryVisited: #2d3236;    
-    --colorActionprimaryBorder: #222529;    
-    --colorActionsecondaryDefault: #383e44;    
-    --colorActionsecondarySubdued: #bfc9d1;    
-    --colorActionsecondaryHover: #ebecec;    
-    --colorActionsecondaryFocus: #0b0c0e;    
-    --colorActionsecondaryActive: #383e44;    
-    --colorActionsecondaryVisited: #2d3236;    
-    --colorActionsecondaryDisabled: #f4f6f7;    
-    --colorActionsecondaryBorder: #0b0c0e;    
-    --colorActiontertiaryDefault: #e6e6e6;    
-    --colorActiontertiarySubdued: #f0f0f0;    
-    --colorActiontertiaryHover: #ebecec;    
-    --colorActiontertiaryFocus: #0b0c0e;    
-    --colorActiontertiaryActive: #383e44;    
-    --colorActiontertiaryVisited: #2d3236;    
-    --colorActiontertiaryDisabled: #fcfcfc;    
-    --colorActiontertiaryBorder: #0b0c0e;    
-    --colorActionlinkDefault: #e6e6e6;    
-    --colorActionlinkSubdued: #f0f0f0;    
-    --colorActionlinkHover: #ebecec;    
-    --colorActionlinkFocus: #0b0c0e;    
-    --colorActionlinkActive: #383e44;    
-    --colorActionlinkVisited: #2d3236;    
-    --colorActionlinkDisabled: #fcfcfc;    
-    --colorActionlinkBorder: #0b0c0e;    
-    --colorInteractionDefault: #383e44;    
-    --colorInteractionSubdued: #888b8f;    
-    --colorInteractionHover: #2d3236;    
-    --colorInteractionFocus: #0b0c0e;    
-    --colorInteractionActive: #2d3236;    
-    --colorInteractionDisabled: #ebecec;    
-    --colorInteractionVisited: #2d3236;    
-    --colorInteractionBorder: #0b0c0e;    
-    --colorInteractionError: #da0000;    
-    --colorInteractionSuccess: #47810e;    
-    --colorBackgroundBrandprimary: #383e44;    
-    --colorBackgroundBrandsecondary: #94a5b3;    
-    --colorBackgroundWhite: #ffffff;    
-    --colorSurfaceDefault: #f9fafc;    
-    --colorSurfaceBlack: #0b0c0e;    
-    --colorSurfaceWhite: #ffffff;    
-    --colorSurfaceHover: #f0f2f7;    
-    --colorSurfaceBrandprimary: #383e44;    
-    --colorSurfaceBrandprimarysubdued: #ebecec;    
-    --colorSurfaceBrandsecondary: #94a5b3;    
-    --colorSurfaceBrandsecondarysubdued: #f4f6f7;    
-    --colorSurfaceErrorsubdued: #fdf2f2;    
-    --colorSurfaceWarningsubdued: #fef8f4;    
-    --colorSurfaceSuccesssubdued: #f6f9f3;    
-    --colorSurfaceInfosubdued: #f4f8fa;    
-    --colorTextWarning: #e96a20;    
-    --colorTextError: #da0000;    
-    --colorTextSuccess: #47810e;    
-    --colorTextInfo: #2d799f;    
-    --colorBorderErrordefault: #da0000;    
-    --colorBorderSuccessdefault: #47810e;    
-    --colorBorderWarningdefault: #e96a20;    
-    --colorBorderInfodefault: #2d799f;    
+    /* 5BC0DE */
+    --colorUiStatusInfo: #2d799f;    
+    --colorUiStatusInfoLighten90: #f4f8fa;    
+    /* 69BE28 */
+    --colorUiStatusSuccess: #47810e;    
+    --colorUiStatusSuccessLighten90: #f6f9f3;    
+    /* FD8204 */
+    --colorUiStatusWarning: #e96a20;    
+    --colorUiStatusWarningLighten90: #fef8f4;    
+    /* DA0000 */
+    --colorUiStatusError: #da0000;    
+    --colorUiStatusErrorLighten90: #fdf2f2;    
+    --colorUiGreyWhite: #ffffff;    
+    /* EAEDF3 */
+    --colorUiGreyDarken5: #eaedf3;    
+    /* DDE4EA */
+    --colorUiGreyDarken10: #dde4ea;    
+    --colorUiGreyDarken15: #d2d9df;    
+    /* C7CED4 */
+    --colorUiGreyDarken20: #c7ced4;    
+    /* B1B8BE */
+    --colorUiGreyDarken30: #b1b8be;    
+    /* A6ADB3 */
+    --colorUiGreyDarken35: #a6adb3;    
+    /* 9BA2A8 */
+    --colorUiGreyDarken40: #9ba2a8;    
+    --colorUiGreyDarken45: #90979d;    
+    /* 848B91 */
+    --colorUiGreyDarken50: #848b91;    
+    /* 6F767C */
+    --colorUiGreyDarken60: #6f767c;    
+    /* 595F65 */
+    --colorUiGreyDarken70: #595f65;    
+    /* 43494F */
+    --colorUiGreyDarken80: #43494f;    
+    --colorUiGreyBlack: #010101;    
+    /* 000E82 */
+    --colorPrimaryBase: #5d03ea;    
+    /* 000D75 */
+    --colorPrimaryDarken10: #5403d3;    
+    /* 000B68 */
+    --colorPrimaryDarken20: #4a02bb;    
+    /* 000D7B */
+    --colorPrimaryDarken5: #5803de;    
+    /* 333E9B */
+    --colorPrimaryLighten20: #7d35ee;    
+    /* 666EB4 */
+    --colorPrimaryLighten40: #9e68f2;    
+    /* 999FCD */
+    --colorPrimaryLighten60: #be9af7;    
+    /* CCCFE6 */
+    --colorPrimaryLighten80: #dfcdfb;    
+    /* E5E7F3 */
+    --colorPrimaryLighten90: #efe6fd;    
+    /* 141437 */
+    --colorSecondaryBase: #3addd9;    
+    /* 121231 */
+    --colorSecondaryDarken10: #34c7c3;    
+    /* 10102C */
+    --colorSecondaryDarken20: #2eb1ae;    
+    /* 131334 */
+    --colorSecondaryDarken5: #37d2ce;    
+    /* 43435F */
+    --colorSecondaryLighten20: #61e4e1;    
+    /* 727287 */
+    --colorSecondaryLighten40: #89ebe8;    
+    /* A1A1AF */
+    --colorSecondaryLighten60: #b0f1f0;    
+    /* D0D0D7 */
+    --colorSecondaryLighten80: #d8f8f7;    
+    /* E7E7EB */
+    --colorSecondaryLighten90: #ebfcfb;    
 }
